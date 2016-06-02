@@ -1,6 +1,55 @@
 body {
-	background-color: purple;
+	padding: 0;
+	margin: 0;
+	background-color: pink;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+li {
+	border-top: 5px seagreen solid;
+
+}
+
+#mouse {
+	color: brown;
+}
+
+.bird {
+	color: orange;
+	font-style: italic;
+}
+
+.mammal {
+	color: purple;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.fish {
+	color: white;
+	text-decoration: underline;
+}
+
 h1 {
-	color: red;
+	color: blue;
+	border: 4px red dashed;
+}
+
+ul {
+	border: 4px plum dotted;
+	border-radius: 5px;
+}
+header {
+	background-color: red;
+	width: 100%;
+	height: 200px;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background-color: yellow;
 }
